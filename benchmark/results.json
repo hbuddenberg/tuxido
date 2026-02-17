@@ -1,0 +1,125 @@
+{
+  "total": 10,
+  "passed": 10,
+  "failed": 0,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "cases": [
+    {
+      "name": "simple/hello.py",
+      "expected": "pass",
+      "actual": "pass",
+      "expected_errors": [],
+      "actual_errors": [],
+      "elapsed_ms": 264.34,
+      "passed": true
+    },
+    {
+      "name": "simple/syntax_error.py",
+      "expected": "fail",
+      "actual": "fail",
+      "expected_errors": [
+        "E101"
+      ],
+      "actual_errors": [
+        "E101"
+      ],
+      "elapsed_ms": 3.74,
+      "passed": true
+    },
+    {
+      "name": "simple/os_import.py",
+      "expected": "fail",
+      "actual": "fail",
+      "expected_errors": [
+        "E201"
+      ],
+      "actual_errors": [
+        "E201"
+      ],
+      "elapsed_ms": 4.05,
+      "passed": true
+    },
+    {
+      "name": "medium/counter.py",
+      "expected": "pass",
+      "actual": "pass",
+      "expected_errors": [],
+      "actual_errors": [],
+      "elapsed_ms": 6.58,
+      "passed": true
+    },
+    {
+      "name": "medium/async_error.py",
+      "expected": "fail",
+      "actual": "fail",
+      "expected_errors": [
+        "E202"
+      ],
+      "actual_errors": [
+        "E202"
+      ],
+      "elapsed_ms": 6.22,
+      "passed": true
+    },
+    {
+      "name": "medium/eval_error.py",
+      "expected": "fail",
+      "actual": "fail",
+      "expected_errors": [
+        "E201"
+      ],
+      "actual_errors": [
+        "E201"
+      ],
+      "elapsed_ms": 5.01,
+      "passed": true
+    },
+    {
+      "name": "medium/system_error.py",
+      "expected": "fail",
+      "actual": "fail",
+      "expected_errors": [
+        "E201"
+      ],
+      "actual_errors": [
+        "E201",
+        "E201"
+      ],
+      "elapsed_ms": 5.51,
+      "passed": true
+    },
+    {
+      "name": "complex/todo_app.py",
+      "expected": "pass",
+      "actual": "pass",
+      "expected_errors": [],
+      "actual_errors": [],
+      "elapsed_ms": 8.29,
+      "passed": true
+    },
+    {
+      "name": "complex/file_manager.py",
+      "expected": "fail",
+      "actual": "fail",
+      "expected_errors": [
+        "E201"
+      ],
+      "actual_errors": [
+        "E201",
+        "E201"
+      ],
+      "elapsed_ms": 5.65,
+      "passed": true
+    },
+    {
+      "name": "complex/dashboard.py",
+      "expected": "pass",
+      "actual": "pass",
+      "expected_errors": [],
+      "actual_errors": [],
+      "elapsed_ms": 7.78,
+      "passed": true
+    }
+  ]
+}

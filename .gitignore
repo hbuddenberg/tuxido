@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# IDE files
+_bmad/
+_bmad-output/
+.agent/
+.claude/
+.github/
+.mypy_cache/
+.opencode/
+.pytest_cache/
+.ruff_cache/
+.sisyphus/
+.venv/
+.vscode/
+docs/
+e2e/
+playwright.config.ts
+script.sh 
